@@ -1,0 +1,123 @@
+body {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    margin: auto;
+    font-family: Georgia, serif;
+    width: 100%;
+    /*width: 1051px;*/
+    /*width: 833px;*/
+    background-color: white; 
+    /*background-color: lightgrey;*/
+}
+    .flex-master {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        overflow: auto;
+    }
+    .page-header {
+        flex: none; /* fixed size */
+    background-color: white;
+    border: 25px solid white;
+    width: 85%;
+    margin: auto;
+    }
+.innerbody {
+    flex: 1 1 auto;
+    background-color: white;
+    border: 25px solid white;
+    width: 85%;
+    overflow: auto;
+    margin: auto;
+}
+
+
+.title {
+    font-size: 24pt;
+    padding: 10px;
+    text-align: center;
+    color: maroon;
+}
+.subtitle {
+    font-size: 18pt;
+    text-align: center;
+    color: maroon;
+}
+.subtitle2 {
+    font-size: 14pt;
+    text-align: center;
+    color: maroon;
+}
+.heading {
+    font-size: 16pt;
+    padding: 10px 0px 10px 0px;
+    color: maroon;
+}
+.schedule {
+    border: 1px solid black;
+    width: 100%;
+}
+#schedule td {
+    padding: 5px;
+    border: 1px solid black;
+}
+#schedule .heading {
+    font-weight: bold;
+    background-color: Goldenrod;
+}
+#schedule .holiday {
+    background-color: Gainsboro;
+}
+#schedule .topic0 {
+    background-color: Azure;
+}
+#schedule .topic1 {
+    background-color: LightYellow;
+}
+#schedule .topic3 {
+    background-color: FloralWhite;
+}
+#schedule .topic2 {
+    background-color: Honeydew;
+}
+#schedule .topic4 {
+    color: gold;
+    background-color: maroon;
+}
+/* navigation menu */
+
+ul#nav {
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+    width: 100%;
+    text-align:center;
+}
+
+ul#nav li {
+    display: inline
+}
+
+ul#nav li a {
+    text-decoration: none;
+    padding: 5px 0;
+    /* width: 115px; */
+    width: 140px;
+    background: #000066;
+    display: inline-block;
+    color: #ffffff;
+    float: center;
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+ul#nav li a:hover {
+    background: #abc0d6;
+    color: #000066;
+}
