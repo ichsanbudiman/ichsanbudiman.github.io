@@ -68,6 +68,90 @@
 
 <body>
   <div class="container">
+    <div class="container">
+    <header>
+      <img src="profile.jpg" alt="Ichsan Budiman's image" width="160" height="220">
+      <div>
+        <h1>Ichsan Budiman</h1>
+        <p>Lecturer<br>
+        <a href="https://if.uinsgd.ac.id/">Department of Informatics</a>, <a href="https://fst.uinsgd.ac.id/">Faculty of Science and Technology</a><br>
+        <a href="https://uinsgd.ac.id/">UIN Sunan Gunung Djati Bandung</a><br>
+        Email: <a href="mailto:ichsanbudiman@uinsgd.ac.id">ichsanbudiman@uinsgd.ac.id</a></p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>I am a Lecturer in the Informatics Department at UIN Sunan Gunung Djati Bandung. With over a decade of experience in software engineering, I embrace the challenge of developing reliable and valuable software in a fast-evolving technological landscape.</p>
+    </section>
+
+    <section>
+      <h2>Academic Qualifications</h2>
+      <ul>
+        <li>M.Sc. in Informatics – Institut Teknologi Bandung (2015–2017)</li>
+        <li>B.Sc. in Informatics Engineering – Universitas Pasundan (2009–2014)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <ul>
+        <li>Lecturer (2021–Present)</li>
+        <li>Full Stack Software Developer (2019–2020)</li>
+        <li>Backend Developer (2014–2019)</li>
+        <li>Laboratory Assistant (2011–2014)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Software Engineering</li>
+        <li>Design Pattern Detection and Violation</li>
+        <li>AI for Software Engineering</li>
+        <li>Online Learning and Concept Drift</li>
+        <li>Data Mining and Stream Mining</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Publications</h2>
+      <ul>
+        <li><a href="https://doi.org/10.1109/CITSM60085.2023.10455458" target="_blank">Steganography of LSB Algorithm and Cryptography Vigenere + RC4 for Email Security</a></li>
+        <li><a href="https://joiv.org/index.php/joiv/article/viewFile/1823/927" target="_blank">Classification Algorithms for Learning Loss Detection in Islamic Education</a></li>
+        <li><a href="https://doi.org/10.1109/ICWT55831.2022.9935412" target="_blank">Pneumonia Prediction Using CART</a></li>
+        <li><a href="https://doi.org/10.1109/CITSM56380.2022.9936012" target="_blank">Bird Species Classification using KNN</a></li>
+        <li><a href="https://www.doi.org/10.1109/icwt52862.2021.9678399" target="_blank">Web Crawler for Indonesian News Sentiment Analysis</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Web Profile for Informatics Department using Laravel & IndoBERT (2023)</li>
+        <li>Arabic Handwriting Recognition using CNN & HMM (2023)</li>
+        <li>Student Learning Loss Detection using XGBoost (2022)</li>
+        <li>Employee Engagement Measurement using LIWC & Naive Bayes (2019)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Teaching</h2>
+      <ul>
+        <li>Software Engineering</li>
+        <li>Object-Oriented Programming</li>
+        <li>Machine Learning</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Java, Python, C++, JavaScript, PHP</li>
+        <li><strong>AI & Data Science:</strong> Keras, Scikit-learn, TensorFlow</li>
+        <li><strong>Cloud & DevOps:</strong> Linux, Docker, Apache Tomcat, Nginx, AWS, GCP</li>
+      </ul>
+    </section>
 
     <div class="robot-animation">
       <canvas id="robot" width="120" height="120"></canvas>
@@ -83,7 +167,7 @@
     const ctx = canvas.getContext('2d');
 
     let angle = 0;
-    let smokeParticles = Array.from({ length: 12 }, () => ({
+    let smokeParticles = Array.from({ length: 12 }, (_, i) => ({
       x: 88,
       y: 60,
       radius: 6,
@@ -128,14 +212,14 @@
       ctx.arc(cupX + 3, cupY + 4, 3, 0, Math.PI * 2);
       ctx.fill();
 
-      // Draw steam
+      // Draw smooth sinusoidal smoke
       ctx.strokeStyle = 'rgba(200, 200, 200, 0.3)';
       ctx.lineWidth = 1;
       smokeParticles.forEach(p => {
         ctx.beginPath();
         ctx.moveTo(p.x, p.y);
         for (let i = 0; i < 10; i++) {
-          const offsetX = Math.sin(p.phase + i * 0.1) * 1.5;
+          const offsetX = Math.sin((p.phase + i * 0.1)) * 1.5;
           const offsetY = -i * 1.2;
           ctx.lineTo(p.x + offsetX, p.y + offsetY);
         }
@@ -152,7 +236,6 @@
       angle += 0.05;
       requestAnimationFrame(drawRobot);
     }
-
     drawRobot();
   </script>
 </body>
