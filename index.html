@@ -1,246 +1,528 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Ichsan Budiman's Home Page</title>
-  <meta name="description" content="Welcome to Ichsan Budiman's Home page" />
-  <meta name="keywords" content="Ichsan Budiman, Software Engineering, Reliability, Security, UIN Sunan Gunung Djati, Bandung, Indonesia" />
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to Ichsan Budiman's Home page">
+    <meta name="keywords" content="Ichsan Budiman, Software Engineering, Reliability, Security, UIN Sunan Gunung Djati, Bandung, Indonesia">
+    <title>Ichsan Budiman | Lecturer & Researcher</title>
   <link rel="stylesheet" href="main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-      background: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    header {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      border-bottom: 2px solid #63d47a;
-      padding-bottom: 10px;
-    }
-    img {
-      border-radius: 8px;
-    }
-    h1 {
-      margin: 0;
-    }
-    section {
-      margin-top: 30px;
-    }
-    section h2 {
-      color: #000066;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 5px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .robot-animation {
-      text-align: center;
-      margin: 40px 0 10px 0;
-    }
-    #robot {
-      width: 120px;
-      height: 120px;
-      display: block;
-      margin: 0 auto;
-    }
-    footer {
-      font-size: 0.9em;
-      text-align: center;
-      color: #777;
-    }
-  </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-      <img src="profile.jpg" alt="Ichsan Budiman's image" width="160" height="220">
-      <div>
-        <h1>Ichsan Budiman</h1>
-        <p>Lecturer<br>
-        <a href="https://if.uinsgd.ac.id/">Department of Informatics</a>, <a href="https://fst.uinsgd.ac.id/">Faculty of Science and Technology</a><br>
-        <a href="https://uinsgd.ac.id/">UIN Sunan Gunung Djati Bandung</a><br>
-        Email: <a href="mailto:ichsanbudiman@uinsgd.ac.id">ichsanbudiman@uinsgd.ac.id</a></p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Ichsan Budiman</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
       </div>
-    </header>
+    </nav>
 
-    <section>
-      <h2>Profile</h2>
-      <p>I am a Lecturer in the Informatics Department at UIN Sunan Gunung Djati Bandung. With over a decade of experience in software engineering, I embrace the challenge of developing reliable and valuable software in a fast-evolving technological landscape.</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="profile.jpg" alt="Ichsan Budiman">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Ichsan Budiman</h1>
+                    <p class="hero-subtitle">Lecturer & Researcher</p>
+                    <p class="hero-institution">
+                        <a href="https://if.uinsgd.ac.id/" target="_blank">Department of Informatics</a>, 
+                        <a href="https://fst.uinsgd.ac.id/" target="_blank">Faculty of Science and Technology</a><br>
+                        <a href="https://uinsgd.ac.id/" target="_blank">UIN Sunan Gunung Djati Bandung</a>
+                    </p>
+                    <div class="hero-contact">
+                        <a href="mailto:ichsanbudiman@uinsgd.ac.id">ichsanbudiman@uinsgd.ac.id</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-      <h2>Academic Qualifications</h2>
-      <ul>
-        <li>M.Sc. in Informatics – Institut Teknologi Bandung (2015–2017)</li>
-        <li>B.Sc. in Informatics Engineering – Universitas Pasundan (2009–2014)</li>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <p class="lead">I am a Lecturer in the Informatics Department at UIN Sunan Gunung Djati Bandung. With over a decade of experience in software engineering, I embrace the challenge of developing reliable and valuable software in a fast-evolving technological landscape.</p>
+                </div>
+            </div>
+
+            <div class="two-column-grid">
+                <div class="content-card">
+                    <h3 class="card-title">Academic Qualifications</h3>
+                    <ul class="styled-list">
+                        <li>
+                            <strong>M.Sc. in Informatics</strong><br>
+                            Institut Teknologi Bandung (2015–2017)
+                        </li>
+                        <li>
+                            <strong>B.Sc. in Informatics Engineering</strong><br>
+                            Universitas Pasundan (2009–2014)
+                        </li>
       </ul>
-    </section>
+                </div>
 
-    <section>
-      <h2>Work Experience</h2>
-      <ul>
-        <li>Lecturer (2021–Present)</li>
-        <li>Full Stack Software Developer (2019–2020)</li>
-        <li>Backend Developer (2014–2019)</li>
-        <li>Laboratory Assistant (2011–2014)</li>
+                <div class="content-card">
+                    <h3 class="card-title">Work Experience</h3>
+                    <ul class="styled-list">
+                        <li><strong>Lecturer</strong> (2021–Present)</li>
+                        <li><strong>Full Stack Software Developer</strong> (2019–2020)</li>
+                        <li><strong>Backend Developer</strong> (2014–2019)</li>
+                        <li><strong>Laboratory Assistant</strong> (2011–2014)</li>
       </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-      <h2>Research Interests</h2>
-      <ul>
+    <!-- Research Interests Section -->
+    <section id="research" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Research Interests</h2>
+            <ul class="interests-list">
         <li>Software Engineering</li>
         <li>Design Pattern Detection and Violation</li>
         <li>AI for Software Engineering</li>
         <li>Online Learning and Concept Drift</li>
         <li>Data Mining and Stream Mining</li>
       </ul>
+        </div>
     </section>
 
-    <section>
-      <h2>Publications</h2>
-      <ul>
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <ul class="publications-list">
         <li><a href="https://doi.org/10.1109/CITSM60085.2023.10455458" target="_blank">Steganography of LSB Algorithm and Cryptography Vigenere + RC4 for Email Security</a></li>
         <li><a href="https://joiv.org/index.php/joiv/article/viewFile/1823/927" target="_blank">Classification Algorithms for Learning Loss Detection in Islamic Education</a></li>
         <li><a href="https://doi.org/10.1109/ICWT55831.2022.9935412" target="_blank">Pneumonia Prediction Using CART</a></li>
         <li><a href="https://doi.org/10.1109/CITSM56380.2022.9936012" target="_blank">Bird Species Classification using KNN</a></li>
-        <li><a href="https://www.doi.org/10.1109/icwt52862.2021.9678399" target="_blank">Web Crawler Development to Optimize the Sentiment Analysis Process of Indonesian News Article Opinions</a></i>
-        <li><a href="https://doi.org/10.1109/ICWT52862.2021.9678443" target="_blank">Similarity Level Analysis of the Voices of Twins Using the Analysis of Variance and Likelihood Ratio Methods</a></i>
-        <li><a href="https://doi.org/10.1109/ICWT58823.2023.10335473" target="_blank">Natural Feature Tracking Algorithm in Augmented Reality Recognition of Asmaul Husna</a></i>
+                <li><a href="https://www.doi.org/10.1109/icwt52862.2021.9678399" target="_blank">Web Crawler Development to Optimize the Sentiment Analysis Process of Indonesian News Article Opinions</a></li>
+                <li><a href="https://doi.org/10.1109/ICWT52862.2021.9678443" target="_blank">Similarity Level Analysis of the Voices of Twins Using the Analysis of Variance and Likelihood Ratio Methods</a></li>
+                <li><a href="https://doi.org/10.1109/ICWT58823.2023.10335473" target="_blank">Natural Feature Tracking Algorithm in Augmented Reality Recognition of Asmaul Husna</a></li>
 	      <li><a href="https://doi.org/10.1109/ICCED60214.2023.10425132" target="_blank">Multiplicative Random Number Generation Algorithm in Recognition of Hiragana Letters and Katakana Game</a></li>
 	      <li><a href="https://doi.org/10.1109/ICCED60214.2023.10425589" target="_blank">Changes Analysis in Public Opinion Regarding Binary Option Trends using K-Means++</a></li>
       </ul>
+        </div>
     </section>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>Web Profile for Informatics Department using Laravel & IndoBERT (2023)</li>
-        <li>Arabic Handwriting Recognition using CNN & HMM (2023)</li>
-        <li>Student Learning Loss Detection using XGBoost (2022)</li>
-        <li>Employee Engagement Measurement using LIWC & Naive Bayes (2019)</li>
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <ul class="projects-list">
+                <li><strong>2023:</strong> Web Profile for Informatics Department using Laravel & IndoBERT</li>
+                <li><strong>2023:</strong> Arabic Handwriting Recognition using CNN & HMM</li>
+                <li><strong>2022:</strong> Student Learning Loss Detection using XGBoost</li>
+                <li><strong>2019:</strong> Employee Engagement Measurement using LIWC & Naive Bayes</li>
       </ul>
+        </div>
     </section>
 
-    <section>
-      <h2>Teaching</h2>
-      <ul>
+    <!-- Teaching & Skills Section -->
+    <section class="section">
+        <div class="container">
+            <div class="two-column-grid">
+                <div class="content-card">
+                    <h3 class="card-title">Teaching</h3>
+                    <ul class="styled-list">
         <li>Software Engineering</li>
         <li>Object-Oriented Programming</li>
         <li>Machine Learning</li>
       </ul>
-    </section>
+                </div>
 
-    <section>
-      <h2>Technical Skills</h2>
-      <ul>
+                <div class="content-card">
+                    <h3 class="card-title">Technical Skills</h3>
+                    <ul class="styled-list">
         <li><strong>Programming:</strong> Java, Python, C++, JavaScript, PHP</li>
         <li><strong>AI & Data Science:</strong> Keras, Scikit-learn, TensorFlow</li>
         <li><strong>Cloud & DevOps:</strong> Linux, Docker, Apache Tomcat, Nginx, AWS, GCP</li>
       </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <div class="robot-animation">
-      <canvas id="robot" width="120" height="120"></canvas>
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p><a href="mailto:ichsanbudiman@uinsgd.ac.id">ichsanbudiman@uinsgd.ac.id</a></p>
+            <p>UIN Sunan Gunung Djati Bandung, Indonesia</p>
     </div>
+    </section>
 
-    <footer>
-      &copy; 2025 Ichsan Budiman. All rights reserved.
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="robot-animation">
+                <canvas id="robot" width="140" height="140"></canvas>
+            </div>
+            <p>&copy; 2025 Ichsan Budiman. All rights reserved.</p>
+        </div>
     </footer>
-  
 
   <script>
-    const canvas = document.getElementById('robot');
-    const ctx = canvas.getContext('2d');
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
 
-    let angle = 0;
-    let smokeParticles = Array.from({ length: 12 }, (_, i) => ({
-      x: 88,
-      y: 60,
-      radius: 6,
-      alpha: 0.2,
-      speed: 0.3 + Math.random() * 0.2,
-      phase: Math.random() * 2 * Math.PI
-    }));
+        // Improved Robot Animation
+        const canvas = document.getElementById('robot');
+        const ctx = canvas.getContext('2d');
+        
+        // Use high DPI for crisp rendering
+        const dpr = window.devicePixelRatio || 1;
+        const rect = canvas.getBoundingClientRect();
+        canvas.width = rect.width * dpr;
+        canvas.height = rect.height * dpr;
+        ctx.scale(dpr, dpr);
+        canvas.style.width = rect.width + 'px';
+        canvas.style.height = rect.height + 'px';
 
-    function drawRobot() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      const x = canvas.width / 2;
-      const y = canvas.height / 2 + Math.sin(angle) * 2;
+        let angle = 0;
+        let frameCount = 0;
+        
+        // Improved smoke particles
+        const smokeParticles = Array.from({ length: 8 }, (_, i) => ({
+            x: 0,
+            y: 0,
+            radius: 4 + Math.random() * 3,
+            alpha: 0.3 + Math.random() * 0.2,
+            speed: 0.4 + Math.random() * 0.3,
+            phase: Math.random() * Math.PI * 2,
+            life: Math.random()
+        }));
 
-      // Draw laptop (table)
-      ctx.fillStyle = '#444';
-      ctx.fillRect(x - 20, y + 10, 40, 5);
+        function drawRobot() {
+            ctx.clearRect(0, 0, 140, 140);
+            
+            const centerX = 70;
+            const centerY = 70;
+            const bobOffset = Math.sin(angle * 0.5) * 1.5;
+            const y = centerY + bobOffset;
+            const tableY = y + 12;
 
-      // Draw body
-      ctx.fillStyle = '#666';
-      ctx.fillRect(x - 10, y - 10, 20, 30);
+            // Draw table top
+            ctx.fillStyle = '#6b5b4f';
+            ctx.fillRect(centerX - 30, tableY, 60, 6);
+            
+            // Table top highlight
+            ctx.fillStyle = '#8a7a6f';
+            ctx.fillRect(centerX - 30, tableY, 60, 2);
+            
+            // Table edge (3D effect)
+            ctx.fillStyle = '#5a4a3f';
+            ctx.fillRect(centerX - 30, tableY + 6, 60, 2);
+            
+            // Table legs
+            ctx.fillStyle = '#4a3a2f';
+            ctx.fillRect(centerX - 28, tableY + 6, 4, 15);
+            ctx.fillRect(centerX + 24, tableY + 6, 4, 15);
+            
+            // Laptop on table
+            ctx.fillStyle = '#444';
+            ctx.fillRect(centerX - 23, tableY + 1, 46, 3);
+            ctx.fillStyle = '#333';
+            ctx.fillRect(centerX - 23, tableY, 46, 1);
+            
+            // Laptop screen (open) - lighter background for visibility
+            ctx.fillStyle = '#1a1a2e';
+            ctx.fillRect(centerX - 20, tableY - 18, 40, 18);
+            
+            // Screen bezel
+            ctx.fillStyle = '#333';
+            ctx.fillRect(centerX - 21, tableY - 19, 42, 1);
+            
+            // Draw Linux Tux penguin icon on screen (larger and more visible)
+            const screenCenterX = centerX;
+            const screenCenterY = tableY - 9;
+            
+            // Tux head (larger)
+            ctx.fillStyle = '#ffffff';
+            ctx.beginPath();
+            ctx.arc(screenCenterX, screenCenterY - 2, 6, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Tux body (white)
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(screenCenterX - 5, screenCenterY + 2, 10, 8);
+            ctx.beginPath();
+            ctx.arc(screenCenterX, screenCenterY + 10, 5, 0, Math.PI);
+            ctx.fill();
+            
+            // Tux belly (white - already part of body, but make it stand out)
+            ctx.fillStyle = '#f0f0f0';
+            ctx.beginPath();
+            ctx.arc(screenCenterX, screenCenterY + 4, 4, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Tux eyes (bigger and more visible)
+            ctx.fillStyle = '#000000';
+            ctx.beginPath();
+            ctx.arc(screenCenterX - 2, screenCenterY - 3, 1.5, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(screenCenterX + 2, screenCenterY - 3, 1.5, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Tux beak (orange - bigger)
+            ctx.fillStyle = '#ff8800';
+            ctx.beginPath();
+            ctx.moveTo(screenCenterX, screenCenterY);
+            ctx.lineTo(screenCenterX - 2, screenCenterY + 2);
+            ctx.lineTo(screenCenterX + 2, screenCenterY + 2);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Tux feet (orange - bigger)
+            ctx.fillStyle = '#ff8800';
+            ctx.beginPath();
+            ctx.arc(screenCenterX - 4, screenCenterY + 9, 2.5, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(screenCenterX + 4, screenCenterY + 9, 2.5, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Tux wings (simpler shapes)
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(screenCenterX - 7, screenCenterY + 3, 3, 5);
+            ctx.fillRect(screenCenterX + 4, screenCenterY + 3, 3, 5);
+            
+            // Add some contrast outline
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 0.5;
+            ctx.beginPath();
+            ctx.arc(screenCenterX, screenCenterY - 2, 6, 0, Math.PI * 2);
+            ctx.stroke();
+            
+            // Draw chair behind robot
+            const chairY = y + 20;
+            const chairX = centerX;
+            
+            // Chair back
+            ctx.fillStyle = '#5a4a3f';
+            ctx.fillRect(chairX - 12, chairY - 15, 24, 3);
+            
+            // Chair back support
+            ctx.fillStyle = '#4a3a2f';
+            ctx.fillRect(chairX - 2, chairY - 15, 4, 18);
+            
+            // Chair seat
+            ctx.fillStyle = '#6b5b4f';
+            ctx.fillRect(chairX - 14, chairY, 28, 4);
+            
+            // Chair seat highlight
+            ctx.fillStyle = '#7a6a5f';
+            ctx.fillRect(chairX - 14, chairY, 28, 1);
+            
+            // Chair legs
+            ctx.fillStyle = '#4a3a2f';
+            ctx.fillRect(chairX - 12, chairY + 4, 3, 12);
+            ctx.fillRect(chairX + 9, chairY + 4, 3, 12);
+            ctx.fillRect(chairX - 12, chairY + 4, 24, 2);
 
-      // Draw head
-      ctx.fillStyle = '#333';
-      ctx.fillRect(x - 8, y - 25, 16, 16);
+            // Draw robot body (rounded)
+            ctx.fillStyle = '#666';
+            ctx.beginPath();
+            ctx.roundRect(centerX - 12, y - 10, 24, 28, 4);
+            ctx.fill();
 
-      // Eyes
-      ctx.fillStyle = '#fff';
-      ctx.fillRect(x - 4, y - 22, 3, 3);
-      ctx.fillRect(x + 1, y - 22, 3, 3);
+            // Draw robot legs
+            ctx.fillStyle = '#666';
+            ctx.fillRect(centerX - 8, y + 18, 5, 8);
+            ctx.fillRect(centerX + 3, y + 18, 5, 8);
 
-      // Arms typing
-      ctx.fillStyle = '#666';
-      ctx.fillRect(x - 18, y + 5, 6, 3);
-      ctx.fillRect(x + 12, y + 5, 6, 3);
+            // Draw funny oversized shoes (clown-style!)
+            const leftShoeX = centerX - 10;
+            const rightShoeX = centerX + 1;
+            const shoeY = y + 26;
+            
+            // Left shoe - big red clown shoe
+            ctx.fillStyle = '#ff3333';
+            ctx.beginPath();
+            ctx.roundRect(leftShoeX - 3, shoeY, 10, 6, 2);
+            ctx.fill();
+            
+            // Left shoe toe (curved upward)
+            ctx.fillStyle = '#ff5555';
+            ctx.beginPath();
+            ctx.arc(leftShoeX + 2, shoeY, 5, 0, Math.PI);
+            ctx.fill();
+            
+            // Left shoe sole
+            ctx.fillStyle = '#333';
+            ctx.fillRect(leftShoeX - 3, shoeY + 6, 10, 2);
+            
+            // Left shoe laces
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = 0.5;
+            ctx.beginPath();
+            ctx.moveTo(leftShoeX, shoeY + 2);
+            ctx.lineTo(leftShoeX + 2, shoeY + 4);
+            ctx.moveTo(leftShoeX + 4, shoeY + 2);
+            ctx.lineTo(leftShoeX + 6, shoeY + 4);
+            ctx.stroke();
+            
+            // Right shoe - big blue clown shoe
+            ctx.fillStyle = '#3333ff';
+            ctx.beginPath();
+            ctx.roundRect(rightShoeX - 3, shoeY, 10, 6, 2);
+            ctx.fill();
+            
+            // Right shoe toe (curved upward)
+            ctx.fillStyle = '#5555ff';
+            ctx.beginPath();
+            ctx.arc(rightShoeX + 2, shoeY, 5, 0, Math.PI);
+            ctx.fill();
+            
+            // Right shoe sole
+            ctx.fillStyle = '#333';
+            ctx.fillRect(rightShoeX - 3, shoeY + 6, 10, 2);
+            
+            // Right shoe laces
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = 0.5;
+            ctx.beginPath();
+            ctx.moveTo(rightShoeX, shoeY + 2);
+            ctx.lineTo(rightShoeX + 2, shoeY + 4);
+            ctx.moveTo(rightShoeX + 4, shoeY + 2);
+            ctx.lineTo(rightShoeX + 6, shoeY + 4);
+            ctx.stroke();
+            
+            // Add some sparkles/stars on shoes for extra fun
+            ctx.fillStyle = '#ffff00';
+            ctx.beginPath();
+            ctx.arc(leftShoeX + 1, shoeY + 1, 1, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(rightShoeX + 5, shoeY + 1, 1, 0, Math.PI * 2);
+            ctx.fill();
 
-      // Coffee cup
-      const cupX = x + 25;
-      const cupY = y;
-      ctx.fillStyle = '#8B4513';
-      ctx.fillRect(cupX, cupY, 6, 8);
-      ctx.beginPath();
-      ctx.arc(cupX + 3, cupY + 4, 3, 0, Math.PI * 2);
-      ctx.fill();
+            // Draw robot head (rounded)
+            ctx.fillStyle = '#444';
+            ctx.beginPath();
+            ctx.roundRect(centerX - 10, y - 28, 20, 20, 3);
+            ctx.fill();
 
-      // Draw smooth sinusoidal smoke
-      ctx.strokeStyle = 'rgba(200, 200, 200, 0.3)';
-      ctx.lineWidth = 1;
-      smokeParticles.forEach(p => {
-        ctx.beginPath();
-        ctx.moveTo(p.x, p.y);
-        for (let i = 0; i < 10; i++) {
-          const offsetX = Math.sin((p.phase + i * 0.1)) * 1.5;
-          const offsetY = -i * 1.2;
-          ctx.lineTo(p.x + offsetX, p.y + offsetY);
+            // Draw eyes with subtle glow
+            const eyeY = y - 22;
+            ctx.fillStyle = '#fff';
+            ctx.beginPath();
+            ctx.arc(centerX - 4, eyeY, 2.5, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(centerX + 4, eyeY, 2.5, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Eye pupils with subtle movement
+            ctx.fillStyle = '#333';
+            const pupilOffset = Math.sin(angle * 2) * 0.5;
+            ctx.beginPath();
+            ctx.arc(centerX - 4 + pupilOffset, eyeY, 1, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(centerX + 4 + pupilOffset, eyeY, 1, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Draw typing arms (animated)
+            const armOffset = Math.sin(angle * 3) * 2;
+            ctx.fillStyle = '#666';
+            ctx.fillRect(centerX - 20, y + 5 + armOffset, 6, 3);
+            ctx.fillRect(centerX + 14, y + 5 - armOffset, 6, 3);
+
+            // Draw coffee cup
+            const cupX = centerX + 28;
+            const cupY = y;
+            ctx.fillStyle = '#8B4513';
+            ctx.fillRect(cupX, cupY, 7, 10);
+            ctx.beginPath();
+            ctx.arc(cupX + 3.5, cupY + 5, 3.5, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Cup handle
+            ctx.strokeStyle = '#8B4513';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.arc(cupX + 7, cupY + 3, 2, 0, Math.PI);
+            ctx.stroke();
+
+            // Draw smooth sinusoidal smoke
+            ctx.strokeStyle = 'rgba(200, 200, 200, 0.3)';
+            ctx.lineWidth = 1;
+            smokeParticles.forEach(p => {
+                const baseX = cupX + 3.5;
+                const baseY = cupY - 2;
+                
+                p.x = baseX + Math.sin(p.phase + angle) * 2;
+                p.y = baseY - p.life * 25;
+                p.life += p.speed * 0.015;
+                p.phase += 0.02;
+                
+                if (p.life > 1) {
+                    p.life = 0;
+                    p.phase = Math.random() * Math.PI * 2;
+                }
+
+                ctx.beginPath();
+                ctx.moveTo(p.x, p.y);
+                for (let i = 0; i < 10; i++) {
+                    const offsetX = Math.sin((p.phase + i * 0.1)) * 1.5;
+                    const offsetY = -i * 1.2;
+                    ctx.lineTo(p.x + offsetX, p.y + offsetY);
+                }
+                ctx.stroke();
+            });
+
+            angle += 0.05;
+            frameCount++;
+            requestAnimationFrame(drawRobot);
         }
-        ctx.stroke();
 
-        p.y -= p.speed * 0.2;
-        p.phase += 0.03;
-        if (p.y < 30) {
-          p.y = cupY;
-          p.phase = Math.random() * 2 * Math.PI;
+        // Polyfill for roundRect if needed
+        if (!ctx.roundRect) {
+            ctx.roundRect = function(x, y, width, height, radius) {
+                this.beginPath();
+                this.moveTo(x + radius, y);
+                this.lineTo(x + width - radius, y);
+                this.quadraticCurveTo(x + width, y, x + width, y + radius);
+                this.lineTo(x + width, y + height - radius);
+                this.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+                this.lineTo(x + radius, y + height);
+                this.quadraticCurveTo(x, y + height, x, y + height - radius);
+                this.lineTo(x, y + radius);
+                this.quadraticCurveTo(x, y, x + radius, y);
+                this.closePath();
+            };
         }
-      });
 
-      angle += 0.05;
-      requestAnimationFrame(drawRobot);
-    }
-    drawRobot();
+        drawRobot();
   </script>
 </body>
-
 </html>
-
