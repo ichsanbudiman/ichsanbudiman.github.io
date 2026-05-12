@@ -230,11 +230,12 @@ body {
 }
 
 .publications-list a {
-    color: var(--text-color);
+    color: #2563eb;
     text-decoration: none;
 }
 
 .publications-list a:hover {
+    color: #1d4ed8;
     text-decoration: underline;
 }
 
